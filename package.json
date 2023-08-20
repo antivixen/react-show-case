@@ -1,0 +1,72 @@
+{
+  "name": "@antivixen/react-show-case",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/show.umd.js",
+  "module": "./dist/show.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/show.es.js",
+      "require": "./dist/show.umd.js"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antivixen/react-show-case.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "build": "vite build",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
+  },
+  "keywords": [],
+  "author": "antivixen",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2020": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@testing-library/jest-dom": "^6.0.1",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "eslint": "^8.47.0",
+    "eslint-plugin-react": "^7.33.2",
+    "jsdom": "^22.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.3",
+    "vite": "^4.4.9",
+    "vitest": "^0.32.0"
+  }
+}
