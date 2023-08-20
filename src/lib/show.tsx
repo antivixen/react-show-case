@@ -12,7 +12,7 @@ export type Props = {
 
 export const Show = ({ when, children }: Props) => {
   let fallback: JSX.Element | null = null;
-  let conditionalChildren: JSX.Element[] = [];
+  const conditionalChildren: JSX.Element[] = [];
   Children.map(children, (child) => {
     if (child.type.name === "Fallback") {
       fallback = child;
