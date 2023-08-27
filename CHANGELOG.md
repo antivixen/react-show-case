@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.10
+
+### Patch Changes
+
+- 7f70991: Fix module export
+
 ## 0.0.9
 
 ### Patch Changes
