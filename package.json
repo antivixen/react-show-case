@@ -1,6 +1,6 @@
 {
   "name": "@antivixen/react-show-case",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "./dist/show.umd.js",
   "module": "./dist/show.es.js",
