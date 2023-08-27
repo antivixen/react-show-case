@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.6
+
+### Patch Changes
+
+- 0882815: Fixing the module lib resolution
+
 ## 0.0.5
 
 ### Patch Changes
