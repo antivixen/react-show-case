@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.4
+
+### Patch Changes
+
+- 792c13d: change conditional children to const
+
 ## 0.0.3
 
 ### Patch Changes
