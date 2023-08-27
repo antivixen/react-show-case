@@ -1,6 +1,6 @@
 import { render, screen, cleanup } from "@testing-library/react";
 import { describe, expect, test, afterEach } from "vitest";
-import { Show } from "./";
+import Show from "./";
 
 describe("Show component standard behavior", () => {
   afterEach(() => {
