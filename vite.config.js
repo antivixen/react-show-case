@@ -11,10 +11,10 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: path.resolve(__dirname, "src/lib/show.tsx"),
-      name: "Show",
+      entry: path.resolve(__dirname, "src/lib/index.tsx"),
+      name: "@antivixen/react-show-case",
       formats: ["es", "umd"],
-      fileName: (format) => `show.${format}.js`,
+      fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
@@ -28,8 +28,6 @@ export default defineConfig({
   plugins: [
     react(),
     tsconfigPaths(),
-    dts({
-      include: ["src/lib/show.tsx"],
-    }),
+    dts({ insertTypesEntry: true, include: ["src/lib/index.tsx"] }),
   ],
 });

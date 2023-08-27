@@ -1,1 +1,1 @@
-export { Show } from "./lib/show";
+export { Show } from "./lib/";
