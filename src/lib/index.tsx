@@ -10,11 +10,11 @@ export type Props = {
   when: boolean;
 } & WithConditionalChildren;
 
-const Show = ({ when, children }: Props) => {
+export const Show = ({ when, children }: Props) => {
   let fallback: JSX.Element | null = null;
   const conditionalChildren: JSX.Element[] = [];
   Children.map(children, (child) => {
-    if (child.type.name === "Fallback") {
+    if (child.type.name === "Show_Fallback") {
       fallback = child;
     } else {
       conditionalChildren.push(child);
@@ -28,8 +28,8 @@ const Show = ({ when, children }: Props) => {
   return fallback;
 };
 
-Show.Fallback = function Fallback({ children }: WithConditionalChildren) {
+export const Fallback = function Show_Fallback({
+  children,
+}: WithConditionalChildren) {
   return <>{children}</>;
 };
-
-export default Show;
