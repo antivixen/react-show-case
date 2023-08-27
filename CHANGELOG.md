@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.7
+
+### Patch Changes
+
+- f79ee79: Fixing tsConfig
+
 ## 0.0.6
 
 ### Patch Changes
