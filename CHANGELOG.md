@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.9
+
+### Patch Changes
+
+- 7340d22: Fix package.json meta data
+
 ## 0.0.8
 
 ### Patch Changes
