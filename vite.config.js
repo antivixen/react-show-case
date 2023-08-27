@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
 import dts from "vite-plugin-dts";
+import * as packageJson from "./package.json";
 
 export default defineConfig({
   esbuild: {
@@ -16,7 +17,7 @@ export default defineConfig({
       fileName: (format) => `show.${format}.js`,
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: [...Object.keys(packageJson.peerDependencies)],
       output: {
         globals: {
           react: "React",

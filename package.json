@@ -4,13 +4,16 @@
   "description": "",
   "main": "./dist/show.umd.js",
   "module": "./dist/show.es.js",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/show.es.js",
       "require": "./dist/show.umd.js"
     }
   },
-  "types": "dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -45,7 +48,6 @@
   "eslintConfig": {
     "env": {
       "browser": true,
-      "node": true,
       "es2020": true
     },
     "extends": [
@@ -55,6 +57,10 @@
     "parserOptions": {
       "sourceType": "module"
     }
+  },
+  "peerDependencies": {
+    "react": "^18.2.20",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
