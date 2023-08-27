@@ -8,6 +8,7 @@ import * as packageJson from "./package.json";
 export default defineConfig({
   esbuild: {
     loader: "tsx",
+    keepNames: true,
   },
   build: {
     lib: {
