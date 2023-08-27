@@ -1,16 +1,16 @@
 {
   "name": "@antivixen/react-show-case",
   "version": "0.0.8",
-  "description": "",
-  "main": "./dist/show.umd.js",
-  "module": "./dist/show.es.js",
+  "description": "JSX component to deal with React Js conditional rendering",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "import": "./dist/show.es.js",
-      "require": "./dist/show.umd.js"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
     }
   },
   "types": "./dist/index.d.ts",
