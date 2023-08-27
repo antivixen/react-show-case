@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.12
+
+### Patch Changes
+
+- ebae7e5: Fixing vite config build names
+
 ## 0.0.11
 
 ### Patch Changes
