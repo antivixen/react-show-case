@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.5
+
+### Patch Changes
+
+- 02add91: Fixing type module resolution
+
 ## 0.0.4
 
 ### Patch Changes
