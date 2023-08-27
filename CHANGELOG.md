@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.11
+
+### Patch Changes
+
+- 78b8847: fixing fallback name type
+
 ## 0.0.10
 
 ### Patch Changes
