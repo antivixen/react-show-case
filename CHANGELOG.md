@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.0.8
+
+### Patch Changes
+
+- 4cebed5: fixing up library namespace
+
 ## 0.0.7
 
 ### Patch Changes
