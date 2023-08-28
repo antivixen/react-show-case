@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.1.3
+
+### Patch Changes
+
+- 9e1b7b0: Change react peer deps
+
 ## 0.1.2
 
 ### Patch Changes
