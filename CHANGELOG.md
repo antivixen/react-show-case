@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.1.0
+
+### Minor Changes
+
+- bbc6060: The first working minor version
+
 ## 0.0.12
 
 ### Patch Changes
