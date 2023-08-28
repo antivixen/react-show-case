@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.1.6
+
+### Patch Changes
+
+- c292e46: add react to peers
+
 ## 0.1.5
 
 ### Patch Changes
