@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.1.1
+
+### Patch Changes
+
+- ee08c2f: Edit readme
+
 ## 0.1.0
 
 ### Minor Changes
