@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.1.4
+
+### Patch Changes
+
+- 53580fc: delete redundant index
+
 ## 0.1.3
 
 ### Patch Changes
