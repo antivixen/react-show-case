@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.1.2
+
+### Patch Changes
+
+- 9c95b0f: add reamde minor correction
+
 ## 0.1.1
 
 ### Patch Changes
