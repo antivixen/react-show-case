@@ -30,7 +30,11 @@
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "conditional rendering",
+    "JSX"
+  ],
   "author": "antivixen",
   "license": "MIT",
   "browserslist": {
