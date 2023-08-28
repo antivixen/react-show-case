@@ -13,10 +13,12 @@ export const Example = () => {
   return (
     <Show when={isAvailable}>
       <h1>Some content to show</h1>
-      <Fallback>Some content to show if when statement is false</Fallback>
+      <Fallback>
+        <h1>Some content to show if when statement is false</h1>
+      </Fallback>
     </Show>
   );
 };
 ```
 
-Worth to mention neither `Show` nor `Feedback` work with primitive values. To utilise those you might either use a standard ternary operator or explore [this lib](https://www.npmjs.com/package/@antivixen/andor)
+It's worth noting that neither the Show nor the Feedback functions are compatible with primitive values. To make use of them, you can either employ a standard ternary operator or investigate [this library](https://www.npmjs.com/package/@antivixen/andor)
