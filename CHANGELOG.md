@@ -1,5 +1,11 @@
 # @antivixen/react-show-case
 
+## 0.1.5
+
+### Patch Changes
+
+- 786007f: edit vite config
+
 ## 0.1.4
 
 ### Patch Changes
